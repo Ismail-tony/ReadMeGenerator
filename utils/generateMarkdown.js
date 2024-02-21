@@ -23,7 +23,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Contribution
-  ${data.contribution}
+  Stack Overflow: [https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki]
 
   ## Tests
   ${data.tests}
@@ -32,7 +32,7 @@ function generateMarkdown(data) {
   ${data.license}
 
   ## Questions
-  Github: [${data.username}](${data.github})
+  Github: [${data.username}](https://github.com/${data.username})
 `;
 }
 

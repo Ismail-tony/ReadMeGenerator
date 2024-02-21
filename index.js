@@ -8,42 +8,42 @@ const questions = [
         {
             type: "input",
             name: "title",
-            message: "What is the title of your project?"
+            message: "What is the title of your project? \n",
         },
         {
             type: "confirm",
             name: "confirm",
-            message: "Would you like to continue?",
+            message: "Would you like to continue? \n",
         },
         {
             type: "input",
             name: "description",
-            message: "Write a description of your project."
+            message: "Write a description of your project.\n"
         },
         {
             type: "confirm",
             name: "tableOfContents",
-            message: "Do you want a Table of Contents"
+            message: "Do you want a Table of Contents \n",
         },
         {
             type: "input",
             name: "installation",
-            message: "What are the steps required to install your project?"
+            message: "What are the steps required to install your project? \n",
         },
         {
             type: "input",
             name: "usage",
-            message: "Provide instructions and examples for use."
+            message: "Provide instructions and examples for use. \n",
         },
         {
             type: "input",
             name: "contribution",
-            message: "Who contributed to this project?"
+            message: "Who contributed to this project? \n",
         },
         {
             type: "input",
             name: "tests",
-            message: "What tests were run on this project?"
+            message: "What tests were run on this project? \n",
         },
         {
             type: "list",
@@ -54,12 +54,7 @@ const questions = [
         {
             type: "input",
             name: "username",
-            message: "What is your GitHub username?"
-        },
-        {
-            type: "input",
-            name: "github",
-            message: "What is your GitHub URL?"
+            message: "What is your GitHub username? \n",
         },
     ];
 

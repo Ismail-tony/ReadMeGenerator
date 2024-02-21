@@ -1,10 +1,9 @@
-# test
+# ReadMe Generator
 
   ## Description
-  testing phase
+  This app generates and update ReadMe.md file
 
   ## Table of Contents
-  true
 
   - [Description](#description)
   - [Installation](#installation)
@@ -15,16 +14,16 @@
   - [Questions](#questions)
 
   ## Installation
-  js and npm
+  This code ses JavaScript and Node.Js
 
   ## Usage
-  inquirer and fs 
+  Javascript is being used to write the code while Node.js is used to install the inquirer and fs npm to prompt and overwrite the ReadMe file
 
   ## Contribution
-  n/a
+  Stack overflow: [How to create table of content](https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki)
 
   ## Tests
-  test
+  N/A
 
   ## License
   MIT
