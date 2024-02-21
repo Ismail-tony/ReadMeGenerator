@@ -4,7 +4,6 @@
   This app generates and update ReadMe.md file
 
   ## Table of Contents
-  true
 
   - [Description](#description)
   - [Installation](#installation)
