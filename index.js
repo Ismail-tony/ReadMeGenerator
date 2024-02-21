@@ -21,9 +21,9 @@ const questions = [
             message: "Write a description of your project."
         },
         {
-            type: "input",
+            type: "confirm",
             name: "tableOfContents",
-            message: "Table of Contents"
+            message: "Do you want a Table of Contents"
         },
         {
             type: "input",
@@ -61,7 +61,7 @@ const questions = [
             name: "github",
             message: "What is your GitHub URL?"
         },
-    ]
+    ];
 
 // function to write README file
 function writeToFile(fileName, data) {
